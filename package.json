@@ -1,0 +1,24 @@
+{
+  "name": "mern_boilderplate",
+  "version": "1.0.0",
+  "description": "@-> https://www.youtube.com/watch?v=yScMn7iBa1g&list=PL9a7QRYt5fqly7BrCxOS71BqLLb9OeXKd",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dork7/mern_boilderplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dork7/mern_boilderplate/issues"
+  },
+  "homepage": "https://github.com/dork7/mern_boilderplate#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.16",
+    "nodemon": "^2.0.4"
+  }
+}
