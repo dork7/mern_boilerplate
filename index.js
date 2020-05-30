@@ -5,10 +5,10 @@ const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 
 const { User } = require("./model/user");
-
+const config = require('./config/key');
 mongoose
   .connect(
-    "mongodb+srv://dork7:hitler564@cluster0-7kxtv.mongodb.net/test?retryWrites=true&w=majority",
+    config.mongoURI,
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => console.log("DB Connected"))
